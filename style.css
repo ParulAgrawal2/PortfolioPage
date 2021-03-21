@@ -1,0 +1,102 @@
+#container{
+  
+    display: grid;
+    grid-template-rows: 70px 545px 70px 600px 400px;
+    font-size: 30px;
+    text-align: right;
+    color: #82004e;
+    position: relative;
+  }
+  
+  #welcome-section{
+    
+    background-color: #fe78c9;
+    text-align: center;
+    padding: 60px;
+  
+  }
+  
+  #navbar{
+    
+    background-color: #fecae9;
+    position: sticky;
+    color: #82004e;
+    top: 1px;
+    
+    
+  
+  }
+  
+  #projects{
+    
+    background-color: #fe27a9;
+    text-align: center;
+    color: #82004e;
+    display: grid;
+    grid-template-columns: 600px 600px; 
+    grid-template-rows: 300px 300px;
+    grid-template-areas:
+      "head head"
+      "main main";
+    
+    
+  }
+  
+  #footer{
+    
+    background-color: #cb007b;
+    text-align: center;
+    padding: 60px;
+    color: #fecae9;
+    
+    
+  }
+  
+  #work{
+    text-align: center;
+    color: #82004e;
+  }
+  
+  #profile-link{
+    
+    text-align: center;
+    
+  }
+  
+  .allproject{
+    
+    position: fixed;
+    color: #82004e;
+  }
+  
+  
+  @media (max-width: 460px){
+    
+    #container{
+      font-size: 25px;
+    }
+    
+    #navbar{
+      font-size: 20px;
+    }
+    
+     #footer{
+      font-size: 20px;
+    }
+  }
+  
+  .quote{
+    
+    padding: 10px;
+  }
+  
+  .image{
+    
+    width: 50%;
+    height: auto;
+    border: 10px solid #fecae9;
+    border-radius: 40%;
+  }
+  
+  
+  
